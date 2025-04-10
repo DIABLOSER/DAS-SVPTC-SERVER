@@ -1,4 +1,14 @@
-# 📦 服务端（Server）
+<div align="center">
+  <img src="https://github.com/DIABLOSER/DAS-SVPTC/blob/main/src/assets/img/logo.png" alt="logo" width="200" height="200" />
+</div>
+
+# 📦 短视频文本评论动态分析系统服务端
+
+> 基于哔哩哔哩开放 API 的短视频评论情感与行为数据可视化平台
+
+本项目致力于构建一个面向 **Bilibili 短视频平台** 的评论数据动态分析系统，采用 **前后端分离架构**，实现对用户评论内容的实时采集、智能分析与交互式可视化展示，帮助用户更全面地洞察观众反馈、舆情变化及潜在热点内容。
+
+项目涵盖从登录认证、视频内容获取到评论文本深度挖掘与图形展示的完整数据流程，适用于数据分析、自然语言处理、用户研究等多个场景。
 
 服务端基于 Python 的 Flask 框架开发，主要负责处理前端请求、调用 Bilibili 接口、分析评论数据，并将可视化图表和分析结果返回前端展示。
 
@@ -63,16 +73,20 @@
 
 ---
 
-## 📁 目录结构示意
+## ⚠️ 免责声明
 
-```bash
-server/
-├── server.py                # Flask 应用主入口
-├── bilibili_api.py          # B站相关接口处理模块
-├── analysis.py              # 评论分析模块（情感、聚类等）
-├── charts_generator.py      # 图表绘制模块
-├── utils.py                 # 工具函数与代理方法
-├── output/                  # 自动生成的图表、分析文件目录
-├── static/                  # 前端可访问的图表与数据
-└── requirements.txt         # 后端依赖库列表
+本项目仅供 **学术研究与学习使用**，所有数据均来自哔哩哔哩官方公开 API，不涉及任何商业用途或隐私数据抓取。如有侵权或违反平台规定，请及时联系作者处理。
+
+---
+
+## 📬 联系作者
+
+如有建议或合作意向，欢迎通过以下方式与我联系：
+
+- 📧 Email：`daboluo719@gmail.com`
+- 🔗 项目地址：[GitHub - DAS-SVPTC](https://github.com/DIABLOSER/DAS-SVPTC)
+
+---
+
+> 如果你喜欢这个项目，欢迎 ⭐Star 和 🍴Fork！你的支持是我持续优化的最大动力！
 
